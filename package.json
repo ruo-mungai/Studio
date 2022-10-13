@@ -1,0 +1,8 @@
+{
+  "devDependencies": {
+    "eslint": "^8.25.0"
+  },
+  "dependencies": {
+    "mdb-react-ui-kit": "^4.2.0"
+  }
+}
