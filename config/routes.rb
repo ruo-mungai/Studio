@@ -3,6 +3,6 @@ Rails.application.routes.draw do
   resources :photos,only: [:index, :show, :update, :create, :destroy]
   resources :sessions, only: [:create]
   patch "/photos/:id/like", to: "photos#increment_likes"
-
+  resources :registrations, only: [:create]
   
 end
